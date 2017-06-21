@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9BB9611EFA8B2B00CCD1B3 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BB9601EFA8B2B00CCD1B3 /* DateViewController.swift */; };
+		A68B7E1F1EF1110200D583AB /* AddMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B7E1E1EF1110200D583AB /* AddMovieTableViewController.swift */; };
 		A6DAC7871EF0D81D00822C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAC7861EF0D81D00822C6D /* AppDelegate.swift */; };
 		A6DAC7891EF0D81D00822C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAC7881EF0D81D00822C6D /* ViewController.swift */; };
 		A6DAC78C1EF0D81D00822C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DAC78A1EF0D81D00822C6D /* Main.storyboard */; };
 		A6DAC78E1EF0D81D00822C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DAC78D1EF0D81D00822C6D /* Assets.xcassets */; };
 		A6DAC7911EF0D81D00822C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DAC78F1EF0D81D00822C6D /* LaunchScreen.storyboard */; };
+		A6DAC79B1EF0E7C100822C6D /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAC79A1EF0E7C100822C6D /* MoviesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E9BB9601EFA8B2B00CCD1B3 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		A68B7E1E1EF1110200D583AB /* AddMovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMovieTableViewController.swift; path = ../AddMovieTableViewController.swift; sourceTree = "<group>"; };
 		A6DAC7831EF0D81D00822C6D /* PhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DAC7861EF0D81D00822C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DAC7881EF0D81D00822C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		A6DAC78D1EF0D81D00822C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6DAC7901EF0D81D00822C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6DAC7921EF0D81D00822C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DAC79A1EF0E7C100822C6D /* MoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		A6DAC7851EF0D81D00822C6D /* PhotoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A68B7E1E1EF1110200D583AB /* AddMovieTableViewController.swift */,
 				A6DAC7861EF0D81D00822C6D /* AppDelegate.swift */,
 				A6DAC7881EF0D81D00822C6D /* ViewController.swift */,
 				A6DAC78A1EF0D81D00822C6D /* Main.storyboard */,
+				8E9BB9601EFA8B2B00CCD1B3 /* DateViewController.swift */,
+				A6DAC79A1EF0E7C100822C6D /* MoviesTableViewController.swift */,
 				A6DAC78D1EF0D81D00822C6D /* Assets.xcassets */,
 				A6DAC78F1EF0D81D00822C6D /* LaunchScreen.storyboard */,
 				A6DAC7921EF0D81D00822C6D /* Info.plist */,
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9BB9611EFA8B2B00CCD1B3 /* DateViewController.swift in Sources */,
+				A68B7E1F1EF1110200D583AB /* AddMovieTableViewController.swift in Sources */,
+				A6DAC79B1EF0E7C100822C6D /* MoviesTableViewController.swift in Sources */,
 				A6DAC7891EF0D81D00822C6D /* ViewController.swift in Sources */,
 				A6DAC7871EF0D81D00822C6D /* AppDelegate.swift in Sources */,
 			);
@@ -262,7 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PhotoDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0.PhotoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PhotoDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0.PhotoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +311,7 @@
 				A6DAC7971EF0D81D00822C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
